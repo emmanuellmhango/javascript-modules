@@ -8,4 +8,4 @@ export default (bookTitle, bookAuthor) => {
   books.push(book);
   localStorage.setItem('books', JSON.stringify(books));
   return true;
-}
+};

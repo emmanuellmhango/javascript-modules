@@ -4,4 +4,4 @@ export default (title, author, div, arrLength) => {
       <span>"${title}" by ${author}</span>
       <button class="delete-button" id="${arrLength}">Remove</button>
     </p>`;
-}
+};

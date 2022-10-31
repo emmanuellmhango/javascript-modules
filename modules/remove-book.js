@@ -3,4 +3,4 @@ export default (id) => {
   books.splice(id, 1);
   localStorage.setItem('books', JSON.stringify(books));
   return true;
-}
+};
