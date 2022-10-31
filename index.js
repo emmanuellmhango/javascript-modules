@@ -13,10 +13,9 @@ const DisplayAddNew = document.getElementById('add-books');
 const listLink = document.getElementById('list');
 const addBookLink = document.getElementById('add-new');
 const contactLink = document.getElementById('contact-link');
-
 const time = DateTime.utc().toLocaleString(DateTime.DATETIME_FULL);
-document.querySelector('.date').innerHTML = time;
 
+document.querySelector('.date').innerHTML = time;
 displayBooks(booksDiv);
 
 listLink.addEventListener('click', () => {
