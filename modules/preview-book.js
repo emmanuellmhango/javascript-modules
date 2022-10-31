@@ -1,4 +1,4 @@
-export const previewBook = (title, author, div, arrLength) => {
+export default (title, author, div, arrLength) => {
   div.innerHTML += `
     <p id="${arrLength}-del" class="book-class">
       <span>"${title}" by ${author}</span>

@@ -1,4 +1,4 @@
-export const removeBook = (id) => {
+export default (id) => {
   const books = JSON.parse(localStorage.getItem('books') || '[]');
   books.splice(id, 1);
   localStorage.setItem('books', JSON.stringify(books));

@@ -1,7 +1,7 @@
-import { addBook } from './modules/add-book.js';
-import { previewBook } from './modules/preview-book.js';
-import { removeBook } from './modules/remove-book.js';
-import { displayBooks } from './modules/display-books.js';
+import addBook from './modules/add-book.js';
+import previewBook from './modules/preview-book.js';
+import removeBook from './modules/remove-book.js';
+import displayBooks from './modules/display-books.js';
 import { DateTime } from './modules/luxon.js';
 
 const btn = document.getElementById('btn');

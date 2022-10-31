@@ -1,4 +1,4 @@
-export const time = () => {
+export default () => {
   const date = new Date();
   const day = date.getDate();
   const month = date.getMonth();

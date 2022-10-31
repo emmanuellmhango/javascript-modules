@@ -1,4 +1,4 @@
-export const addBook = (bookTitle, bookAuthor) => {
+export default (bookTitle, bookAuthor) => {
   const books = JSON.parse(localStorage.getItem('books') || '[]');
   const book = {
     title: bookTitle,
