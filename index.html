@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="main-link title">Awesome books</h1>
+    <nav class="navigation">
+      <ul class="ul-links">
+        <li class="normal-link1"><a href="#" class="ahref" id="list">List</a></li>
+        <li class="link"><a href="#" class="ahref" id="add-new">Add new</a></li>
+        <li class="normal-link"><a href="#" class="ahref" id="contact-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="date"></section>
+    <section class="all-books" id="all-books">
+        <h1 class="title-post">All awesome Books</h1>
+        <section id="display-books" class="display-books-div"></section>
+    </section> 
+    <br>
+    <section class="add-books" id="add-books">
+        <h1 class="title-post">Add a new book</h1>
+        <form action="" method="post">
+            <input type="text" name="title" id="title" placeholder="Title" required><br><br>
+            <input type="text" name="author" id="author" placeholder="Author" required><br><br>
+            <input type="button" value="Add" id="btn">
+        </form>
+    </section>
+
+    <section class="contact-div" id="contact-div">
+      <h1 class="title-post">Contact information</h1>
+      <p class="contact-details">Do you have any questions or you just want to say "Hello"? You can reach out to us!</p>
+      <ul class="contact-details">
+        <li>Our e-mail: mail@mail.com</li>
+        <li>Our phone number: 004415245233322</li>
+        <li>Our address: Street name 22, 542154 city, country</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2022 emmanuel book store inc.</p>
+  </footer>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
