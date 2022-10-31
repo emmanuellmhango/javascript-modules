@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "luxon": "^3.1.0"
-  }
+  "license": "ISC"
 }
