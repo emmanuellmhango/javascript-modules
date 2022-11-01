@@ -1,8 +1,8 @@
-import { addBook } from "./modules/add-book.js";
-import { previewBook } from "./modules/preview-book.js";
-import { removeBook } from "./modules/remove-book.js";
-import { displayBooks } from "./modules/display-books.js";
-import { DateTime, Info } from "./modules/luxon.js"
+import addBook from './modules/add-book.js';
+import previewBook from './modules/preview-book.js';
+import removeBook from './modules/remove-book.js';
+import displayBooks from './modules/display-books.js';
+import { DateTime } from './modules/luxon.js';
 
 const btn = document.getElementById('btn');
 const booksDiv = document.getElementById('display-books');
@@ -13,10 +13,9 @@ const DisplayAddNew = document.getElementById('add-books');
 const listLink = document.getElementById('list');
 const addBookLink = document.getElementById('add-new');
 const contactLink = document.getElementById('contact-link');
-
 const time = DateTime.utc().toLocaleString(DateTime.DATETIME_FULL);
-document.querySelector('.date').innerHTML = time;
 
+document.querySelector('.date').innerHTML = time;
 displayBooks(booksDiv);
 
 listLink.addEventListener('click', () => {

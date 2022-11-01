@@ -1,4 +1,4 @@
-export const displayBooks = (booksDiv) => {
+export default (booksDiv) => {
   const books = JSON.parse(localStorage.getItem('books') || '[]');
   if (books !== null) {
     for (let i = 0; i < books.length; i += 1) {
@@ -9,4 +9,4 @@ export const displayBooks = (booksDiv) => {
         </p>`;
     }
   }
-}
+};
